@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '18'
+          node-version: '24'
 
       - name: Install Lighthouse CI
         run: npm install -g @lhci/cli@0.12.x
