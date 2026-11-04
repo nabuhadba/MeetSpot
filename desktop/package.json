@@ -12,5 +12,8 @@
   "devDependencies": {
     "@electron/packager": "^20.3.0",
     "electron": "^44.5.1"
+  },
+  "overrides": {
+    "glob": "^14.0.3"
   }
 }
